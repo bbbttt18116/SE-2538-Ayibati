@@ -1,10 +1,5 @@
 import java.util.Iterator;
 import java.util.NoSuchElementException;
-
-/**
- * Implementation of a doubly linked list.
- * Each element is stored in a node with pointers to the previous and next nodes.
- */
 public class MyLinkedList<T extends Comparable<T>> implements MyList<T> {
     
     // Inner class representing a single node in the chain
